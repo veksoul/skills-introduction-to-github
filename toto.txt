@@ -1,0 +1,13 @@
+#changement d'un fichier powershell sans ext ps1
+
+#import du module exchange
+import-module exhangeonlinemanagement
+
+#installation du module
+install-module exhangeonlinemanagement
+
+#update du module 
+update-module exhangeonlinemanagement
+
+#connexion à exchange
+connect--module exhangeonlinemanagement
