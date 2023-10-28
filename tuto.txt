@@ -1,7 +1,7 @@
 Prerequis faire les git global pour la configuration (imporant à retenir)
 
 
-tout ce qui fait en local ne peut etre envoyé sur un repo qu'avec le git push -u origin "nom de la branche sans les guillements",
+tout ce qui fait en local ne peut etre envoyé sur un repo qu'avec le git push -u origin "nom de la branche sans les guillements"
 fonctionnement en push pour a comprehension du local vers le web
 est il possible dans le sens inverse?
 
