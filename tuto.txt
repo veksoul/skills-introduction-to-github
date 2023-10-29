@@ -24,7 +24,7 @@ Pour faire des changements sur un fichier existant il faut:
 - switcher sur la branche ---> git switch "nom de la branche"
 - faire les modifications
 - ajouter et commit les modifications "git commit -a -m "le message"
-- merger la branche secondaire avec la principal si tout est ok ---> git merge -m "le message"
+- merger la branche secondaire avec la principal si tout est ok ---> git merge -m "le message" "nom de branch secondaire"
 - supprimer la branch --> git branch -d "nom de la branche à supprimer"
 - [optionnal]pousser les modifs sur le github --> git push -u origin "nom de la branch"
 
