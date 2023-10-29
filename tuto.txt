@@ -12,7 +12,21 @@ git add . "pour ajouter tous les fichiers ou git add "nom du fichier" pour le fi
 git commit -m "message pour renseigner les infos sur le git"
 
 git push -u origin "nom de la branche sans les guillements"  -> permet de pousser sur le github ou giltlab je suppose
+git branch "le nom de la branche" --> creer une nouvelle branche
+git switch "nom de la branch" --> permet de switcher de branche
+git switch -c "nom de la nouvelle branch permet de switcher automatiquement vers la nouvelle Branch"
 
+
+Pour faire des changements sur un fichier existant il faut:
+- creer une nouvelle branche --> git branch "le nom de la branche"
+- verifier qu'il existe bien les 2 branches --> git branch
+- [optionnal]pousser les modifs sur le github --> git push -u origin "nom de la branch"
+- switcher sur la branche ---> git switch "nom de la branche"
+- faire les modifications
+- ajouter et commit les modifications "git commit -a -m "le message"
+- merger la branche secondaire avec la principal si tout est ok ---> git merge -m "le message"
+- supprimer la branch --> git branch -d "nom de la branche à supprimer"
+- [optionnal]pousser les modifs sur le github --> git push -u origin "nom de la branch"
 
 lien web debutant
 https://www.youtube.com/watch?v=eXF0epLeCgo
